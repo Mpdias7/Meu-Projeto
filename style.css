@@ -1,11 +1,72 @@
-/* Meu arquivo css*/
-p{
-	color: black;
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial;
 }
-body{
-	background: chocolate;
-	text-align: center;
+
+header{
+	background-color: #2F4F4F;
+	height: 125px;
 	padding: 20px;
+	
+
+}
+footer{
+	clear: both;
+	background-color:#2F4F4F ;
+	height: 100px;
+	text-align: center;
+	padding: 10px
 }
 
+h1{
+	color: white;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+p{
+	color: white;
+}
 
+#principal{
+	background-image: url('img/rick.jpg');
+	min-height:800px ;
+	background-size: 100%;
+	padding: 100px 0 0 0;
+}
+
+.conteiner{
+	width: 960px;
+	margin: auto;
+}
+
+#logo{
+	width: 220px;
+	height: 110px;
+	float: left;
+}
+
+#menu{
+	float: right;
+	padding: 50px 60px 0 0;
+}
+#menu a{
+text-decoration: none;
+color: #111;
+text-shadow: 1px 1px 1px #111111;
+padding: 15px;
+margin-top:20px ;
+color: #32CD32;
+}
+#menu a:hover{
+	background-color: #2E8B57;
+	padding:
+}
+
+.efeito{
+	background-color: rgba(0,0,0,0.5);
+	padding: 100px 0 100px 0
+}
+	
